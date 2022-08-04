@@ -22,12 +22,12 @@ class App extends Component {
       <main>
       <Header />
       <Route exact path='/' render={() => 
-      <>
+      <div className='form-wrapper'>
       <Form getType={this.getType} />
       <Link to={`/${this.state.type}`}>
       <button>GO!</button>
       </Link>
-      </>
+      </div>
       
       }
       />
