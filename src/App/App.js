@@ -38,7 +38,7 @@ class App extends Component {
       path='/drawing' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/mixed-media' render={() => <Display type={this.state.type}/>}
+      path='/mixed media' render={() => <Display type={this.state.type}/>}
       />
       <Route 
       path='/painting' render={() => <Display type={this.state.type}/>}

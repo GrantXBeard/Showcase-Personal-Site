@@ -7,7 +7,7 @@ const Form = ({ getType }) => {
        <option defaultValue=''>Select a Medium</option>
        <option value='collage'>Collage</option>
        <option value='drawing'>Drawing</option>
-       <option value='mixed-media'>Mixed Media</option>
+       <option value='mixed media'>Mixed Media</option>
        <option value='painting'>Painting</option>
        <option value='sculpture'>Sculpture</option>
       </select>

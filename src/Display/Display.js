@@ -66,7 +66,7 @@ class Display extends Component {
             <section className='item-container'>
             {this.state.isLoading && <p className="loading">Loading...</p>}
             {this.state.error && <h2>{this.state.error}</h2>}
-            <h2>DISPLAY</h2>
+            {this.state.work && this.state.work}
             </section>
             </div>
         )
