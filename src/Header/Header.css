@@ -1,0 +1,16 @@
+.title {
+    margin: 1em;
+}
+
+.header-wrapper {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+}
+

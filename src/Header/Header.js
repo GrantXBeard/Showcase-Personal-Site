@@ -11,7 +11,11 @@ class Header extends Component {
 
     render() {
         return (
+            <div className='header-wrapper'>
+            <div className='title-wrapper'>
             <h1 className='title'>Grant X Beard</h1>
+            </div>
+            </div>
         )
     }
 }
