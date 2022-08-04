@@ -2,10 +2,19 @@ import React, { Component } from 'react'
 import './App.css';
 import { Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <p>hello</p>
-  );
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+
+    }
+  }
+
+  render() {
+    return (
+      <p>howdy</p>
+    )
+  }
 }
 
 export default App;

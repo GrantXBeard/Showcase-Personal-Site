@@ -1,0 +1,15 @@
+body {
+    margin-bottom: 20px;
+    /* background-color: #ffffff; */
+    background-image: url('https://i.ibb.co/FzcgY6x/IMG-3279.jpg');
+    background-size: cover;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .loading {
+    font-size: 24px;
+    color: white;
+  }
