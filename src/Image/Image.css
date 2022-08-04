@@ -1,0 +1,28 @@
+.image, .red {
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    margin: 0;
+    width: 19vw;
+    transition: transform 400ms;
+    }
+  
+.image:hover, .red:hover{
+    border-color:#fff;
+    color: #ee9690;
+    box-shadow:
+    0 -40px 100px,
+    0 0 2px,
+    0 0 1em #ee9690,
+    0 0 0.5em #ee9690,
+    0 0 0.1em #ee9690,
+    0 10px 3px rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .description {
+    color: black;
+  }
+
+  .red {
+    color: red;
+  }

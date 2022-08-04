@@ -13,3 +13,12 @@ body {
     font-size: 24px;
     color: white;
   }
+
+  .form-wrapper {
+    background-color: cornsilk;
+    height: 2em;
+    width: 10em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+  }
