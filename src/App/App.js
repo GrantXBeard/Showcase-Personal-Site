@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import './App.css';
+import './App.css'
+import Display from '../Display/Display'
+import Header from '../Header/Header'
 import { Route } from 'react-router-dom'
 
 class App extends Component {
@@ -12,7 +14,10 @@ class App extends Component {
 
   render() {
     return (
-      <p>howdy</p>
+      <Route exact path='/' render={()=> 
+      <p>Howdy</p>
+      }
+      />
     )
   }
 }
