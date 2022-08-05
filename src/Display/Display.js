@@ -52,6 +52,7 @@ class Display extends Component {
                     id={img.id}
                     key={img.id}
                     description={img.description}
+                    type={img.type}
                 />
             )
        })
