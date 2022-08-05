@@ -19,7 +19,7 @@ body {
     background-color: white;
     height: 3em;
     width: 10em;
-    padding: 2em;
+    padding-right: 2em;
     display: flex;
     flex-direction: row;
     align-items: center;

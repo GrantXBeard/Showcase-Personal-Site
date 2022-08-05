@@ -1,0 +1,28 @@
+
+.bio-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio-box {
+    margin-top: 2em;
+    height: 30em;
+    width: 50em;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 2em;
+    display: flex;
+}
+
+.portrait {
+    width: 22em;
+}
+
+.red {
+    color: red;
+    cursor: pointer;
+  }
