@@ -20,17 +20,27 @@ class App extends Component {
   render() {
     return (
       <main>
+       <div className='top'>
       <Header />
-      <Route exact path='/' render={() => 
+      <Route exact path='/' render={() =>
+      <>
+      <p>+</p>
       <div className='form-wrapper'>
       <Form getType={this.getType} />
       <Link to={`/${this.state.type}`}>
       <button>GO!</button>
       </Link>
       </div>
+      </>
+      
       
       }
       />
+       </div>
+       {/* >>>>>>this is the last thing you tried to do<<<<<<< */}
+      {/* <Route 
+      path={`/${this.state.type}`} render={() => <Display type={this.state.type}/>}
+      /> */}
       <Route 
       path='/collage' render={() => <Display type={this.state.type}/>}
       />

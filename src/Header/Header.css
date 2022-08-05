@@ -3,10 +3,10 @@
 }
 
 .header-wrapper {
+    width: 100vw;
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .title-wrapper {
