@@ -8,12 +8,24 @@ class Image extends Component {
             id: id,
             path: path,
             description: description,
+            show: false,
+        }
+    }
+
+    changeShow = () => {
+        if (!this.state.show){
+            this.setState({show: true})
+        } else {
+            this.setState({show: false})
         }
     }
 
     render() {
         return (
-            <img className='image' src={this.state.path} id={this.state.id} />
+            <>
+                {this.state.show && <p className='description'>{this.state.description} <span onClick={this.changeShow} className='red'>X</span></p>}
+                <img onClick={this.changeShow} className='image' src={this.state.path} id={this.state.id} />
+            </>
         )
     }
 }
