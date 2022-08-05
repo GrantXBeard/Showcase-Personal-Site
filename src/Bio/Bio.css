@@ -12,8 +12,8 @@
     margin-top: 2em;
     height: 30em;
     width: 50em;
-    border-style: dashed;
-    border-width: 1px;
+    /* border-style: dashed;
+    border-width: 1px; */
     padding: 2em;
     display: flex;
 }
@@ -25,4 +25,16 @@
 .red {
     color: red;
     cursor: pointer;
+  }
+
+  .copy {
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .insta-logo {
+    height: 2em;
+    width: 2em;
   }
