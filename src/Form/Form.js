@@ -10,6 +10,7 @@ const Form = ({ getType }) => {
             <option value='mixed media'>Mixed Media</option>
             <option value='painting'>Painting</option>
             <option value='sculpture'>Sculpture</option>
+            <option value='all'>All</option>
       </select>
       </form>
     )
