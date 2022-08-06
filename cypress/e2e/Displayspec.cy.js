@@ -11,4 +11,8 @@ describe('Display', () => {
   it('Should have Images displayed', () => {
     cy.get('.image').first().should('have.attr', 'id').should('include', 19)
   })
+  it('Should be able to return home by clicking the title', () => {
+    cy.get('h1').click()
+    cy.url().should('eq', 'http://localhost:3001/')
+  })
 })
