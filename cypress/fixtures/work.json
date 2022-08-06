@@ -1,0 +1,14 @@
+{
+  "work":
+  [
+    { "id": 1, "description": "small drawing", "img": "https://i.ibb.co/Cbd59pP/IMG-3202-Large.jpg", "type": "drawing"},
+    { "id": 2, "description": "small mixed media collage", "img": "https://i.ibb.co/rFb3kr4/IMG-3151-Large.jpg", "type": "mixed media"},
+    { "id": 14, "description": "small mixed media collage", "img": "https://i.ibb.co/YfXYWHX/IMG-3103-Large.jpg", "type": "mixed media"},
+    { "id": 19, "description": "small collage", "img": "https://i.ibb.co/BCB2fzS/IMG-3264-Large.jpg", "type": "collage"},
+    { "id": 20, "description": "small collage", "img": "https://i.ibb.co/Lv5WVnJ/IMG-3236-Large.jpg", "type": "collage"},
+    { "id": 21, "description": "medium collage", "img": "https://i.ibb.co/Ht514CN/IMG-3058-Large.jpg", "type": "collage"},
+    { "id": 45, "description": "medium painting", "img": "https://i.ibb.co/phGKN76/IMG-3274-Large.jpg", "type": "painting"},
+    { "id": 100, "description": "small mixed media collage", "img": "https://i.ibb.co/VLLGHw6/IMG-3107-Large.jpg", "type": "mixed media"},
+    { "id": 117, "description": "small cermaic vase", "img": "https://i.ibb.co/c29xHRd/IMG-3123-Large.jpg", "type": "sculpture"}
+  ]
+}
