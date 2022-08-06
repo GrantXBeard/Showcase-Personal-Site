@@ -43,9 +43,16 @@ class Display extends Component {
     }
 
     getType = (work) => {
-       let medium = work
-        .filter(img => img.type === this.state.type)
-        .map(img => {
+       if (this.state.type === 'all') {
+        return this.buildImageArray(work)
+       } else {
+        let medium =  work.filter(img => img.type === this.state.type)
+        return this.buildImageArray(medium)
+    }
+    }
+
+    buildImageArray = (array) => {
+        return array.map(img => {
             return (
                 <Image
                     path={img.img}
@@ -56,8 +63,6 @@ class Display extends Component {
                 />
             )
        })
-       return medium
-
     }
 
     render() {
