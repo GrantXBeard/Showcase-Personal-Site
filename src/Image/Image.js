@@ -24,8 +24,7 @@ class Image extends Component {
 
     render() {
         return (
-            <>
-                
+            <> 
                 {this.state.show && 
                 <Link to={`/${this.state.type}`} style={{textDecoration: 'none'}}>
                 <p className='description'>{this.state.description}  

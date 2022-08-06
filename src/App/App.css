@@ -2,7 +2,7 @@ body {
     margin-bottom: 20px;
     /* background-color: #ffffff; */
     background-image: url('https://i.ibb.co/FzcgY6x/IMG-3279.jpg');
-    background-size: cover;
+    background-size: 100%;
   }
   
   .App {
