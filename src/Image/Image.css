@@ -1,4 +1,4 @@
-.image, .red {
+.image {
     box-sizing: border-box;
     border: 2px solid transparent;
     margin: 0;
@@ -6,7 +6,7 @@
     transition: transform 400ms;
     }
   
-.image:hover, .red:hover{
+.image:hover {
     border-color:#fff;
     color: #ee9690;
     box-shadow:

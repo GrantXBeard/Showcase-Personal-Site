@@ -3,6 +3,7 @@ import './App.css'
 import Display from '../Display/Display'
 import Header from '../Header/Header'
 import Form from '../Form/Form'
+import Bio from '../Bio/Bio'
 import { Route, Link } from 'react-router-dom'
 
 class App extends Component {
@@ -24,7 +25,9 @@ class App extends Component {
       <Header />
       <Route exact path='/' render={() =>
       <>
+      <Link to={'/Bio'} style={{textDecoration: 'none'}}>
       <p>+</p>
+      </Link>
       <div className='form-wrapper'>
       <Form getType={this.getType} />
       <Link to={`/${this.state.type}`}>
@@ -58,6 +61,9 @@ class App extends Component {
       />
       <Route 
       path='/all' render={() => <Display type={this.state.type}/>}
+      />
+      <Route 
+      path='/bio' render={() => <Bio />}
       />
       </main>
     )

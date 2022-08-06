@@ -2,7 +2,7 @@ body {
     margin-bottom: 20px;
     /* background-color: #ffffff; */
     background-image: url('https://i.ibb.co/FzcgY6x/IMG-3279.jpg');
-    background-size: cover;
+    background-size: 100%;
   }
   
   .App {
@@ -19,7 +19,7 @@ body {
     background-color: white;
     height: 3em;
     width: 10em;
-    padding: 2em;
+    padding-right: 2em;
     display: flex;
     flex-direction: row;
     align-items: center;
