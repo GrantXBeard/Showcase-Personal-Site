@@ -27,11 +27,11 @@ class Image extends Component {
             <> 
                 {this.state.show && 
                 <Link to={`/${this.state.type}`} style={{textDecoration: 'none'}}>
-                <p className='description'>{this.state.description}  
-                <span onClick={this.changeShow} className='red'> X</span></p>
+                    <p className='description'>{this.state.description}  
+                    <span onClick={this.changeShow} className='red'> X</span></p>
                 </Link>}
                 <Link to={`/${this.state.type}/${this.state.id}`}>
-                <img onClick={this.changeShow} className='image' src={this.state.path} id={this.state.id} />
+                    <img onClick={this.changeShow} className='image' src={this.state.path} id={this.state.id} />
                 </Link>
             </>
         )

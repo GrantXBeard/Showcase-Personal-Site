@@ -64,11 +64,11 @@ class Display extends Component {
         console.log(this.state.work)
         return (
             <div className='display'>
-            <section className='item-container'>
-            {this.state.isLoading && <p className="loading">Loading...</p>}
-            {this.state.error && <h2>{this.state.error}</h2>}
-            {this.state.work && this.state.work}
-            </section>
+                <section className='item-container'>
+                    {this.state.isLoading && <p className="loading">Loading...</p>}
+                    {this.state.error && <h2>{this.state.error}</h2>}
+                    {this.state.work && this.state.work}
+                </section>
             </div>
         )
     }

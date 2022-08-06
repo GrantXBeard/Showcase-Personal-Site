@@ -13,11 +13,11 @@ class Header extends Component {
     render() {
         return (
             <div className='header-wrapper'>
-            <div className='title-wrapper'>
-            <Link to={'/'} style={{textDecoration: 'none'}}>
-            <h1 className='title'>Grant X Beard</h1>
-            </Link>
-            </div>
+                <div className='title-wrapper'>
+                    <Link to={'/'} style={{textDecoration: 'none'}}>
+                        <h1 className='title'>Grant X Beard</h1>
+                    </Link>
+                </div>
             </div>
         )
     }

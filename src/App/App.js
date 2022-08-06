@@ -22,48 +22,45 @@ class App extends Component {
     return (
       <main>
        <div className='top'>
-      <Header />
-      <Route exact path='/' render={() =>
-      <>
-      <Link to={'/Bio'} style={{textDecoration: 'none'}}>
-      <p>+</p>
-      </Link>
-      <div className='form-wrapper'>
-      <Form getType={this.getType} />
-      <Link to={`/${this.state.type}`}>
-      <button>GO!</button>
-      </Link>
-      </div>
-      </>
-      
-      
-      }
-      />
+        <Header />
+        <Route exact path='/' render={() =>
+          <>
+            <Link to={'/Bio'} style={{textDecoration: 'none'}}>
+              <p>+</p>
+            </Link>
+            <div className='form-wrapper'>
+              <Form getType={this.getType} />
+              <Link to={`/${this.state.type}`}>
+                <button>GO!</button>
+              </Link>
+            </div>
+          </>
+        }/>
        </div>
-       {/* >>>>>>this is the last thing you tried to do<<<<<<< */}
+      {/* >>>>>>this is the last thing you tried to do<<<<<<< */}
       {/* <Route 
       path={`/${this.state.type}`} render={() => <Display type={this.state.type}/>}
       /> */}
       <Route 
-      path='/collage' render={() => <Display type={this.state.type}/>}
+        path='/collage' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/drawing' render={() => <Display type={this.state.type}/>}
+        path='/drawing' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/mixed media' render={() => <Display type={this.state.type}/>}
+        path='/mixed media' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/painting' render={() => <Display type={this.state.type}/>}
+        path='/painting' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/sculpture' render={() => <Display type={this.state.type}/>}
+        path='/sculpture' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/all' render={() => <Display type={this.state.type}/>}
+        path='/all' render={() => <Display type={this.state.type}/>}
       />
       <Route 
-      path='/bio' render={() => <Bio />}
+        path='/bio' render={() => <Bio />}
       />
       </main>
     )
