@@ -20,7 +20,7 @@ class Display extends Component {
     
     getData = () => {
         this.setState({ isLoading: true })
-        fetch(`https://grantxbeardapi.herokuapp.com/`)
+        fetch('https://grantxbeardapi.herokuapp.com/')
         .then(res => {
             console.log(res)
             if (res.ok) {

@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Showcase Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Set Up](#set-up)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Contributors](#contributors)
+- [Project Specifications](#project-specifications)
 
-## Available Scripts
+### Introduction
+For my showcase project I decided to build myself a personal artist website. I wanted to create a space to view some of my selected works as well as offer more detail into the processes and mediums that I work with. I also wantwed to provide some basic information about myself as an artist and present ways of contacting or interacting with me.
 
-In the project directory, you can run:
+### Technologies
+- React
+- React Router
+- PropTypes
+- Cypress Testing
+- HTML
+- CSS
+- Express
 
-### `npm start`
+### Set Up
+1.  Clone this [repository](https://github.com/kpn678/stretch-tech).
+2. `cd` into the directory.
+3. Run `npm i` in your terminal
+4. Run `npm run start-dev`
+6. Go to http://localhost:8080/ to view the site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Deploy Link
+[View the site here!](https://cardy-party.herokuapp.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
+- User can select a medium from a dropdown and view all works in that medium
+- User can click on an image and see a despription of that image
+- User can click the "+" to view a short bio and links
 
-### `npm test`
+### Select medium
+![compliment-gif]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Show image details
+![joke-gif]()
 
-### `npm run build`
+###  View bio
+![pdf-gif]()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Future Features
+- User has ability to favorite items
+- User has has ability to contact me through the site
+- has ability to purchase items through the site.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contributors
+- [Grant X. Beard](https://www.linkedin.com/in/grant-x-beard-a287bb232/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Project Specifications
+- Project specs are located [here](https://frontend.turing.edu/projects/module-3/showcase.html).
