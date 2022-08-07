@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 const Form = ({ getType }) => {
     return (
@@ -19,5 +19,5 @@ const Form = ({ getType }) => {
 export default Form
 
 Form.propTypes = {
-  getType: PropTypes.function
+  getType: PropTypes.func
 };
