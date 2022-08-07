@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
+import PropTypes from 'prop-types'
 
 class Header extends Component {
-    constructor() {
+    constructor({ resetType }) {
         super()
         this.state = {
-
+            resetType: resetType
         }
     }
 
@@ -15,7 +16,7 @@ class Header extends Component {
             <div className='header-wrapper'>
                 <div className='title-wrapper'>
                     <Link to={'/'} style={{textDecoration: 'none'}}>
-                        <h1 className='title'>Grant X Beard</h1>
+                        <h1 onClick={this.state.resetType} className='title'>Grant X Beard</h1>
                     </Link>
                 </div>
             </div>
@@ -24,3 +25,7 @@ class Header extends Component {
 }
 
 export default Header
+
+Header.propTypes = {
+    resetType: PropTypes.func
+  };

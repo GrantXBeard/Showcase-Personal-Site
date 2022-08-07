@@ -18,11 +18,15 @@ class App extends Component {
     this.setState({ [event.target.name]: event.target.value})
   }
 
+  resetType = () => {
+    this.setState({ type: '' })
+  }
+
   render() {
     return (
       <main>
        <div className='top'>
-        <Header />
+        <Header resetType={ this.resetType }/>
         <Route exact path='/' render={() =>
           <>
             <Link to={'/Bio'} style={{textDecoration: 'none'}}>
