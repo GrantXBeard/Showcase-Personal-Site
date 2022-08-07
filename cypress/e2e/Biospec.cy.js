@@ -1,6 +1,6 @@
 describe('Bio', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3001/')
+    cy.visit('http://localhost:3000/')
     .get('p').click()
   })
   it('Should have an image', () => {
@@ -14,10 +14,10 @@ describe('Bio', () => {
   })
   it('Should be able to exit back to the main page', () => {
     cy.get('p').first().click()
-    cy.url().should('eq', 'http://localhost:3001/')
+    cy.url().should('eq', 'http://localhost:3000/')
   })
   it('Should be able to return home by clicking the title', () => {
     cy.get('h1').click()
-    cy.url().should('eq', 'http://localhost:3001/')
+    cy.url().should('eq', 'http://localhost:3000/')
   })
 })
