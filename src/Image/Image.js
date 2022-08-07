@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Image.css'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 class Image extends Component {
     constructor({id, path, description, type }) {
@@ -39,3 +40,10 @@ class Image extends Component {
 }
 
 export default Image
+
+Image.propTypes = {
+    id: PropTypes.number,
+    path: PropTypes.string,
+    description: PropTypes.string,
+    type: PropTypes.string,
+  };

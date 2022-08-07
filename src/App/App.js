@@ -37,10 +37,6 @@ class App extends Component {
           </>
         }/>
        </div>
-      {/* >>>>>>this is the last thing you tried to do<<<<<<< */}
-      {/* <Route 
-      path={`/${this.state.type}`} render={() => <Display type={this.state.type}/>}
-      /> */}
       <Route 
         path='/collage' render={() => <Display type={this.state.type}/>}
       />

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Image from '../Image/Image'
 import './Display.css'
+import PropTypes from 'prop-types'
 
 class Display extends Component {
     constructor({ type }) {
@@ -80,3 +81,8 @@ class Display extends Component {
 }
 
 export default Display
+
+Display.propTypes = {
+    type: PropTypes.string
+  };
+  
