@@ -67,7 +67,6 @@ class Display extends Component {
     }
 
     render() {
-        console.log(this.state.work)
         return (
             <div className='display'>
                 <section className='item-container'>
