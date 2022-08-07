@@ -1,7 +1,7 @@
 describe('Bio', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/')
-    .get('p').click()
+    cy.visit('https://grantxbeard.herokuapp.com/')
+    .get('.button-info').click()
   })
   it('Should have an image', () => {
     cy.get('img').should('have.attr', 'src').should('include', 'https://i.ibb.co/Y83Vcjy/IMG-3311.jpg')
@@ -14,10 +14,10 @@ describe('Bio', () => {
   })
   it('Should be able to exit back to the main page', () => {
     cy.get('p').first().click()
-    cy.url().should('eq', 'http://localhost:3000/')
+    cy.url().should('eq', 'https://grantxbeard.herokuapp.com/')
   })
   it('Should be able to return home by clicking the title', () => {
     cy.get('h1').click()
-    cy.url().should('eq', 'http://localhost:3000/')
+    cy.url().should('eq', 'https://grantxbeard.herokuapp.com/')
   })
 })
