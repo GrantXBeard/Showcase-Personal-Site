@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './Form.css'
 
 const Form = ({ getType }) => {
     return (
         <form>
-          <select onChange={event => getType(event)} name='type' id='type'>
+          <select onChange={event => getType(event)} className='medium-select' name='type' id='type'>
             <option defaultValue=''>Select a Medium</option>
             <option value='collage'>Collage</option>
             <option value='drawing'>Drawing</option>

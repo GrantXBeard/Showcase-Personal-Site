@@ -30,12 +30,12 @@ class App extends Component {
         <Route exact path='/' render={() =>
           <>
             <Link to={'/Bio'} style={{textDecoration: 'none'}}>
-              <p>+</p>
+              <button className='button-info'>Info</button>
             </Link>
             <div className='form-wrapper'>
               <Form getType={this.getType} />
               <Link to={`/${this.state.type}`}>
-                <button>GO!</button>
+                <button className='medium-submit'>Go</button>
               </Link>
             </div>
           </>

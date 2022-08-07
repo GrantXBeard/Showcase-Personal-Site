@@ -1,0 +1,11 @@
+select.medium-select {
+    font-size: 1.25em;
+    font-weight: 400;
+    height: 30px;
+    border:1px solid #000;
+    background: #fff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}

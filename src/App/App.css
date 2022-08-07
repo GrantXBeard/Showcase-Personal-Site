@@ -2,6 +2,9 @@ body {
     background-color: #ffffff;
     background-image: url('https://i.ibb.co/FzcgY6x/IMG-3279.jpg');
     background-size: 100%;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
   }
   
   .App {
@@ -17,7 +20,7 @@ body {
     margin: 1em;
     background-color: white;
     height: 3em;
-    width: 10em;
+    /* width: 10em; */
     padding-right: 2em;
     display: flex;
     flex-direction: row;
@@ -30,4 +33,33 @@ body {
     display: flex;
     align-items: center;
     align-content: flex-start;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 1.25em;
+    font-weight: 400;
+    height: 30px;
+    border:1px solid #000;
+    background: #fff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  button:hover {
+    border-color: red;
+  }
+
+  button.medium-submit {
+    background: #000;
+    color: #fff;
   }

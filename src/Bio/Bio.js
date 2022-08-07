@@ -12,17 +12,17 @@ const Bio = () => {
                     <Link to={'/'} style={{textDecoration: 'none'}}>
                         <p className='red'>X</p>
                     </Link>
-                    <pre><p>     Lorem ipsum dolor sit amet, consectetur adipiscing<br></br>
-                        elit. Nunc id pulvinar massa, ut vulputate nulla. Duis<br></br> 
-                        eu eleifend enim, sed euismod eros. Suspendisse nec<br></br>
-                        ultrices orci, in efficitur ex. Mauris et est mauris.<br></br>
-                        Phasellus vel fringilla elit, nec ultrices dolor.<br></br>
-                        Curabitur vehicula dolor eget pellentesque vulputate,<br></br>
-                        quam quam dictum massa, eu porta lectus leo eu risus.<br></br>
-                        Aliquam tincidunt magna pharetra nisi vehicula, a<br></br>
-                        egestas velit accumsan. Quisque non mauris ipsum. Donec<br></br>
-                        tincidunt convallis elit, quis luctus erat. Fusce ut<br></br>
-                        magna sed nunc feugiat tincidunt.</p></pre>
+                    <p>     Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Nunc id pulvinar massa, ut vulputate nulla. Duis 
+                        eu eleifend enim, sed euismod eros. Suspendisse nec
+                        ultrices orci, in efficitur ex. Mauris et est mauris.
+                        Phasellus vel fringilla elit, nec ultrices dolor.
+                        Curabitur vehicula dolor eget pellentesque vulputate,
+                        quam quam dictum massa, eu porta lectus leo eu risus.
+                        Aliquam tincidunt magna pharetra nisi vehicula, a
+                        egestas velit accumsan. Quisque non mauris ipsum. Donec
+                        tincidunt convallis elit, quis luctus erat. Fusce ut
+                        magna sed nunc feugiat tincidunt.</p>
                     <a href='https://www.instagram.com/grantxbeard/'>
                         <img className='insta-logo' src='https://i.ibb.co/YkVmf9V/instagram-icon-white-on-black-circle.jpg'/>
                     </a>
