@@ -3,7 +3,7 @@
 }
 
 .header-wrapper {
-    width: 100vw;
+    width: 100%;
     background-color: white;
     display: flex;
     align-items: center;
