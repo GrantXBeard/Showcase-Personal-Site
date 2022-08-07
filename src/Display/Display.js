@@ -20,8 +20,9 @@ class Display extends Component {
     
     getData = () => {
         this.setState({ isLoading: true })
-        fetch(`http://localhost:3000/api/v1/work`)
+        fetch(`http://localhost:3001/api/v1/work`)
         .then(res => {
+            console.log(res)
             if (res.ok) {
                 return res.json()
             } else {
@@ -37,9 +38,9 @@ class Display extends Component {
         })
         .catch(error => {
             this.setState({
-                error: error.message
+                error: 'There has been an error. Please try again.'
             })
-            console.log("Error")
+            console.log(error.message)
         })
     }
 
@@ -70,8 +71,8 @@ class Display extends Component {
         return (
             <div className='display'>
                 <section className='item-container'>
-                    {this.state.isLoading && <p className="loading">Loading...</p>}
-                    {this.state.error && <h2>{this.state.error}</h2>}
+                    {/* {this.state.isLoading && <h2 className='load-message'>Loading...</h2>} */}
+                    {this.state.error && <h2 className='error-message'>{this.state.error}</h2>}
                     {this.state.work && this.state.work}
                 </section>
             </div>

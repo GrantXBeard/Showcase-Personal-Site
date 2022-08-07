@@ -1,6 +1,6 @@
 describe('HomePage', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3001/')
+    cy.visit('http://localhost:3000/')
   })
   it('Should see a title', () => {
     cy.contains('h1', 'Grant X Beard')
