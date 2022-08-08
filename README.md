@@ -21,7 +21,7 @@ For my showcase project I decided to build myself a personal artist website. I w
 - [API Link](https://grantxbeardapi.herokuapp.com/)
 
 ### Set Up
-1. Fork this [repository](https://github.com/kpn678/boba-buddy), and clone it into your local machine.
+1. Fork this [repository]([https://github.com/GrantXBeard/Showcase-Personal-Site]), and clone it into your local machine.
 2. Navigate into the repository and run `npm install` from your command line.
 3. To view the app running inside the local host, run `npm start`.
 4. To begin testing, run `npm run cypress` in a separate tab from local host tab.
@@ -32,10 +32,10 @@ For my showcase project I decided to build myself a personal artist website. I w
 - User can click the "+" to view a short bio and links
 
 ### Select medium
-![select-gif]()
+![select-gif](https://media2.giphy.com/media/s72lvNkbqnxhrB6jr4/giphy.gif?cid=790b76118894ceddb7f771b36a4ca4ef52ed0ff91c160deb&rid=giphy.gif&ct=g)
 
 ### Show image details
-![image-gif]()
+![image-gif](https://media2.giphy.com/media/s72lvNkbqnxhrB6jr4/giphy.gif?cid=790b76118894ceddb7f771b36a4ca4ef52ed0ff91c160deb&rid=giphy.gif&ct=g)
 
 ###  View bio
 ![bio-gif](https://media1.giphy.com/media/ArFPYcNhJrbcKDqqcl/giphy.gif?cid=790b7611f8512b29b10fdca46e39a9c4e5a43ff61ecf3cae&rid=giphy.gif&ct=g)
