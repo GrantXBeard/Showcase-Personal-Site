@@ -29,7 +29,7 @@ For my showcase project I decided to build myself a personal artist website. I w
 ### Features
 - User can select a medium from a dropdown and view all works in that medium
 - User can click on an image and see a despription of that image
-- User can click the "+" to view a short bio and links
+- User can click the info button to view a short bio and links
 
 ### Select medium
 ![select-gif](https://media2.giphy.com/media/s72lvNkbqnxhrB6jr4/giphy.gif?cid=790b76118894ceddb7f771b36a4ca4ef52ed0ff91c160deb&rid=giphy.gif&ct=g)
