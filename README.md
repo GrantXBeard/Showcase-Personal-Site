@@ -1,11 +1,11 @@
 # Showcase Project
 
 ### Introduction
-For my showcase project I decided to build myself a personal artist website. I wanted to create a space to view some of my selected works as well as offer more detail into the processes and mediums that I work with. I also wantwed to provide some basic information about myself as an artist and present ways of contacting or interacting with me.
+For my showcase project I decided to build myself a personal artist website. I wanted to create a space to view some of my selected works as well as offer more detail into the processes and mediums that I work with. I also wanted to provide some basic information about myself as an artist and present ways of contacting or interacting with me.
 
 ### Goals
 - Demonstrate understanding of React, Router, asynchornous JavaScript, and end-to-end testing with Cypress
-- Build out and impliment an Express server
+- Build out and implement an Express server
 
 ### Technologies
 - React
@@ -28,7 +28,7 @@ For my showcase project I decided to build myself a personal artist website. I w
 
 ### Features
 - User can select a medium from a dropdown and view all works in that medium
-- User can click on an image and see a despription of that image
+- User can click on an image and see a description of that image
 - User can click the info button to view a short bio and links
 
 ### Select medium
