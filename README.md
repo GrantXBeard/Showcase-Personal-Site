@@ -35,7 +35,7 @@ For my showcase project I decided to build myself a personal artist website. I w
 ![select-gif](https://media2.giphy.com/media/s72lvNkbqnxhrB6jr4/giphy.gif?cid=790b76118894ceddb7f771b36a4ca4ef52ed0ff91c160deb&rid=giphy.gif&ct=g)
 
 ### Show image details
-![image-gif](https://media2.giphy.com/media/s72lvNkbqnxhrB6jr4/giphy.gif?cid=790b76118894ceddb7f771b36a4ca4ef52ed0ff91c160deb&rid=giphy.gif&ct=g)
+![image-gif](https://media3.giphy.com/media/4EBV7QpBDHTjhSOpTj/giphy.gif?cid=790b7611f8761a3ff789483cef392d117a98b6582275e659&rid=giphy.gif&ct=g)
 
 ###  View bio
 ![bio-gif](https://media1.giphy.com/media/ArFPYcNhJrbcKDqqcl/giphy.gif?cid=790b7611f8512b29b10fdca46e39a9c4e5a43ff61ecf3cae&rid=giphy.gif&ct=g)
