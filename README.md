@@ -1,16 +1,11 @@
 # Showcase Project
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Set Up](#set-up)
-- [Features](#features)
-- [Future Features](#future-features)
-- [Contributors](#contributors)
-- [Project Specifications](#project-specifications)
-
 ### Introduction
 For my showcase project I decided to build myself a personal artist website. I wanted to create a space to view some of my selected works as well as offer more detail into the processes and mediums that I work with. I also wantwed to provide some basic information about myself as an artist and present ways of contacting or interacting with me.
+
+### Goals
+- Demonstrate understanding of React, Router, asynchornous JavaScript, and end-to-end testing with Cypress
+- Build out and impliment an Express server
 
 ### Technologies
 - React
@@ -21,15 +16,15 @@ For my showcase project I decided to build myself a personal artist website. I w
 - CSS
 - Express
 
-### Set Up
-1.  Clone this [repository](https://github.com/kpn678/stretch-tech).
-2. `cd` into the directory.
-3. Run `npm i` in your terminal
-4. Run `npm run start-dev`
-6. Go to http://localhost:8080/ to view the site.
+### Deploy Links
+- [Website Link](https://grantxbeard.herokuapp.com/)
+- [API Link](https://grantxbeardapi.herokuapp.com/)
 
-### Deploy Link
-[View the site here!](https://cardy-party.herokuapp.com/)
+### Set Up
+1. Fork this [repository](https://github.com/kpn678/boba-buddy), and clone it into your local machine.
+2. Navigate into the repository and run `npm install` from your command line.
+3. To view the app running inside the local host, run `npm start`.
+4. To begin testing, run `npm run cypress` in a separate tab from local host tab.
 
 ### Features
 - User can select a medium from a dropdown and view all works in that medium
@@ -37,13 +32,13 @@ For my showcase project I decided to build myself a personal artist website. I w
 - User can click the "+" to view a short bio and links
 
 ### Select medium
-![compliment-gif]()
+![select-gif]()
 
 ### Show image details
-![joke-gif]()
+![image-gif]()
 
 ###  View bio
-![pdf-gif]()
+![bio-gif](https://media1.giphy.com/media/ArFPYcNhJrbcKDqqcl/giphy.gif?cid=790b7611f8512b29b10fdca46e39a9c4e5a43ff61ecf3cae&rid=giphy.gif&ct=g)
 
 ### Future Features
 - User has ability to favorite items
