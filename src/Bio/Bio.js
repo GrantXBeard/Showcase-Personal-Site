@@ -12,17 +12,7 @@ const Bio = () => {
                     <Link to={'/'} style={{textDecoration: 'none'}}>
                         <p className='red'>X</p>
                     </Link>
-                    <p>     Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nunc id pulvinar massa, ut vulputate nulla. Duis 
-                        eu eleifend enim, sed euismod eros. Suspendisse nec
-                        ultrices orci, in efficitur ex. Mauris et est mauris.
-                        Phasellus vel fringilla elit, nec ultrices dolor.
-                        Curabitur vehicula dolor eget pellentesque vulputate,
-                        quam quam dictum massa, eu porta lectus leo eu risus.
-                        Aliquam tincidunt magna pharetra nisi vehicula, a
-                        egestas velit accumsan. Quisque non mauris ipsum. Donec
-                        tincidunt convallis elit, quis luctus erat. Fusce ut
-                        magna sed nunc feugiat tincidunt.</p>
+                    <p>     Grant Beard is a a multidisciplinary artist living and working in Denver, CO.</p>
                     <a href='https://www.instagram.com/grantxbeard/'>
                         <img className='insta-logo' src='https://i.ibb.co/YkVmf9V/instagram-icon-white-on-black-circle.jpg'/>
                     </a>
